@@ -1,0 +1,1379 @@
+/* line 9, ../sass/screen.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  font-family: "DDT", sans-serif;
+}
+
+/* line 20, ../sass/screen.scss */
+a {
+  color: #0e76bc;
+  text-decoration: none;
+}
+/* line 25, ../sass/screen.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 31, ../sass/screen.scss */
+label {
+  font-weight: 400;
+  width: 180px;
+  padding-right: 10px;
+  float: left;
+  clear: left;
+}
+/* line 39, ../sass/screen.scss */
+label .form-required {
+  color: #b61239;
+}
+
+/* line 45, ../sass/screen.scss */
+.description {
+  display: none;
+}
+
+/* line 53, ../sass/screen.scss */
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date] {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #cccccc;
+  padding: 0 5px !important;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 300;
+  width: 180px;
+  border-radius: 6px;
+  color: #666;
+  font-family: "DDT", sans-serif;
+}
+
+/* line 67, ../sass/screen.scss */
+textarea {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #cccccc;
+  padding: 0 5px !important;
+  font-size: 15px;
+  font-weight: 300;
+  width: 180px!important;
+  border-radius: 6px;
+  color: #666;
+  font-family: "DDT", sans-serif;
+  box-sizing: initial!important;
+}
+
+/* line 81, ../sass/screen.scss */
+input[type=submit] {
+  background-color: #bb1745;
+  border: 0;
+  border-radius: 9px;
+  padding: 13px;
+  color: white;
+  font-family: "DDT", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 94, ../sass/screen.scss */
+.form-actions {
+  margin-left: 190px;
+}
+
+/* line 100, ../sass/screen.scss */
+#block-system-main {
+  line-height: 160%;
+}
+/* line 104, ../sass/screen.scss */
+#block-system-main p {
+  margin-bottom: 0.8em;
+}
+/* line 109, ../sass/screen.scss */
+#block-system-main ul, #block-system-main ol {
+  margin: 10px 0 10px 30px;
+}
+/* line 114, ../sass/screen.scss */
+#block-system-main img {
+  max-width: 100%;
+}
+/* line 119, ../sass/screen.scss */
+#block-system-main h2 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+  background: url(../images/seasons-footer.png) no-repeat center top;
+  margin: 15px 0;
+}
+/* line 128, ../sass/screen.scss */
+#block-system-main h3 {
+  font-weight: 500;
+  margin: 10px 0;
+}
+/* line 134, ../sass/screen.scss */
+#block-system-main .left {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+/* line 141, ../sass/screen.scss */
+#block-system-main .right {
+  float: right;
+  width: 48%;
+}
+
+/* line 150, ../sass/screen.scss */
+#navigation,
+#widgets,
+#footer {
+  clear: left;
+}
+/* line 154, ../sass/screen.scss */
+#navigation > div,
+#widgets > div,
+#footer > div {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+/* line 160, ../sass/screen.scss */
+#navigation > div > div,
+#widgets > div > div,
+#footer > div > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 168, ../sass/screen.scss */
+#navigation {
+  height: 155px;
+  padding: 15px 0;
+}
+
+/* line 174, ../sass/screen.scss */
+#logo {
+  float: left;
+  display: block;
+  height: 155px;
+}
+/* line 180, ../sass/screen.scss */
+#logo img {
+  vertical-align: middle;
+}
+
+/* line 186, ../sass/screen.scss */
+#block-system-main-menu {
+  float: right;
+  margin-top: 25px;
+  height: 20px;
+}
+/* line 192, ../sass/screen.scss */
+#block-system-main-menu .content > ul {
+  list-style: none;
+}
+/* line 196, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  padding-bottom: 12px;
+}
+/* line 205, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > a {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  padding: 20px 15px 12px 15px;
+}
+/* line 215, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > a.facebook, #block-system-main-menu .content > ul > li > a:hover.facebook {
+  font-size: 0;
+  color: transparent;
+  width: 27px;
+  height: 27px;
+  display: block;
+  background: url(../images/facebook.png) no-repeat right top;
+}
+/* line 226, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li.last a {
+  padding-right: 0;
+}
+/* line 233, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li:hover > a {
+  background: url(../images/seasons-menu.png) no-repeat center top;
+}
+/* line 238, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li:hover > ul {
+  display: block;
+}
+/* line 246, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li.expanded:hover:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  margin-left: -8px;
+  width: 17px;
+  height: 9px;
+  background: url(../images/menu-arrow.png) no-repeat;
+  z-index: 10001;
+}
+/* line 261, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  z-index: 1000;
+  width: 290px;
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  list-style: none;
+}
+/* line 274, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 280, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a {
+  display: block;
+  line-height: 36px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #eaeaea;
+  padding: 0 10px;
+}
+/* line 289, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a:hover {
+  font-weight: 500;
+}
+/* line 298, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.arboriculture, #block-system-main-menu .content > ul > li > ul > li > a.lawn, #block-system-main-menu .content > ul > li > ul > li > a.snow-and-ice, #block-system-main-menu .content > ul > li > ul > li > a.fencing, #block-system-main-menu .content > ul > li > ul > li > a.residential {
+  padding-left: 36px;
+  background: no-repeat 8px center;
+}
+/* line 304, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.arboriculture {
+  background-image: url(../images/menu-arboriculture.png);
+}
+/* line 308, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.arboriculture:hover {
+  color: #f6881f;
+}
+/* line 313, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.lawn {
+  background-image: url(../images/menu-lawn.png);
+}
+/* line 317, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.lawn:hover {
+  color: #035b31;
+}
+/* line 322, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.snow-and-ice {
+  background-image: url(../images/menu-snow-and-ice.png);
+}
+/* line 326, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.snow-and-ice:hover {
+  color: #0e76bc;
+}
+/* line 331, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.fencing {
+  background-image: url(../images/menu-fencing.png);
+}
+/* line 335, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.fencing:hover {
+  color: #af0b2b;
+}
+/* line 340, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.residential {
+  background-image: url(../images/menu-residential.png);
+}
+/* line 344, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li > a.residential:hover {
+  color: #231f20;
+}
+/* line 351, ../sass/screen.scss */
+#block-system-main-menu .content > ul > li > ul > li.last > a {
+  border-bottom: 0;
+}
+
+/* line 363, ../sass/screen.scss */
+#block-block-1 .content {
+  color: #af0b2b;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+}
+/* line 371, ../sass/screen.scss */
+#block-block-1 .content a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 16px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  background: #af0b2b;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 389, ../sass/screen.scss */
+#header img {
+  display: block;
+  width: 100%!important;
+  height: auto!important;
+}
+/* line 396, ../sass/screen.scss */
+#header .block {
+  position: relative;
+}
+/* line 401, ../sass/screen.scss */
+#header .block:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1000%;
+  height: 100%;
+  margin-left: -50px;
+  box-shadow: 0 0 10px black inset;
+  z-index: 1;
+}
+
+/* line 415, ../sass/screen.scss */
+#footer {
+  text-align: center;
+}
+/* line 419, ../sass/screen.scss */
+#footer #copyright {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+/* line 424, ../sass/screen.scss */
+#footer #copyright span {
+  font-family: sans-serif;
+}
+/* line 429, ../sass/screen.scss */
+#footer #site-by-cci {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+/* line 434, ../sass/screen.scss */
+#footer #site-by-cci a {
+  color: black;
+  text-decoration: none;
+}
+/* line 439, ../sass/screen.scss */
+#footer #site-by-cci a:hover {
+  text-decoration: underline;
+}
+/* line 448, ../sass/screen.scss */
+#footer #block-menu-menu-footer-menu .content > ul {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* line 455, ../sass/screen.scss */
+#footer #block-menu-menu-footer-menu .content > ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+/* line 462, ../sass/screen.scss */
+#footer #block-menu-menu-footer-menu .content > ul li a {
+  display: inline-block;
+  padding: 0 10px 0 5px;
+  margin: 0;
+  border-right: 1px solid black;
+  line-height: 100%;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+/* line 474, ../sass/screen.scss */
+#footer #block-menu-menu-footer-menu .content > ul li a:hover {
+  text-decoration: underline;
+}
+/* line 480, ../sass/screen.scss */
+#footer #block-menu-menu-footer-menu .content > ul li.last a {
+  border-right: 0;
+}
+/* line 489, ../sass/screen.scss */
+#footer #block-block-2,
+#footer #block-block-3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 100%;
+}
+
+/* line 502, ../sass/screen.scss */
+body.page-say-work #page-title,
+body.node-type-photo-album #page-title,
+body.page-user #page-title {
+  background: black;
+  color: white;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-size: 36px;
+  font-weight: 500;
+}
+/* line 515, ../sass/screen.scss */
+body.page-say-work #block-system-main > div,
+body.node-type-photo-album #block-system-main > div,
+body.page-user #block-system-main > div {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+/* line 521, ../sass/screen.scss */
+body.page-say-work #block-system-main > div > div,
+body.node-type-photo-album #block-system-main > div > div,
+body.page-user #block-system-main > div > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 532, ../sass/screen.scss */
+.view-photo-gallery h3 {
+  font-size: 24px;
+  font-weight: 700!important;
+  margin: 30px 0 !important;
+  clear: both;
+}
+/* line 540, ../sass/screen.scss */
+.view-photo-gallery .group {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #cccccc;
+  clear: both;
+  overflow: hidden;
+}
+/* line 548, ../sass/screen.scss */
+.view-photo-gallery .views-row {
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 45px;
+  line-height: normal;
+  font-weight: 300;
+}
+/* line 557, ../sass/screen.scss */
+.view-photo-gallery .views-row.mod4-3 {
+  margin-right: 0;
+}
+/* line 563, ../sass/screen.scss */
+.view-photo-gallery .views-field-field-images {
+  position: relative;
+}
+/* line 567, ../sass/screen.scss */
+.view-photo-gallery .views-field-field-images a {
+  display: block;
+  height: 220px;
+  position: relative;
+}
+/* line 573, ../sass/screen.scss */
+.view-photo-gallery .views-field-field-images a:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.35) inset;
+  z-index: 1;
+  border-radius: 12px;
+}
+/* line 587, ../sass/screen.scss */
+.view-photo-gallery .views-field-field-images img {
+  border-radius: 12px;
+}
+/* line 593, ../sass/screen.scss */
+.view-photo-gallery .views-field-title {
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+/* line 603, ../sass/screen.scss */
+.view-photo-gallery-page ul {
+  margin: 0 -20px 0 0 !important;
+}
+/* line 607, ../sass/screen.scss */
+.view-photo-gallery-page ul li {
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 616, ../sass/screen.scss */
+.view-photo-gallery-page .views-field-field-images {
+  position: relative;
+}
+/* line 620, ../sass/screen.scss */
+.view-photo-gallery-page .views-field-field-images a {
+  display: block;
+  height: 220px;
+  position: relative;
+}
+/* line 626, ../sass/screen.scss */
+.view-photo-gallery-page .views-field-field-images a:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.35) inset;
+  z-index: 1;
+  border-radius: 12px;
+}
+/* line 640, ../sass/screen.scss */
+.view-photo-gallery-page .views-field-field-images img {
+  border-radius: 12px;
+}
+
+/* line 652, ../sass/screen.scss */
+body.page-node.node-type-page #page-title,
+body.node-type-webform #page-title {
+  display: none;
+}
+/* line 659, ../sass/screen.scss */
+body.page-node.node-type-page #main-wrapper > div,
+body.node-type-webform #main-wrapper > div {
+  width: auto;
+  max-width: none;
+  margin: 0;
+}
+/* line 665, ../sass/screen.scss */
+body.page-node.node-type-page #main-wrapper > div > div,
+body.node-type-webform #main-wrapper > div > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 675, ../sass/screen.scss */
+body.page-node.node-type-page #block-system-main > .content > div > * > div,
+body.node-type-webform #block-system-main > .content > div > * > div {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+/* line 681, ../sass/screen.scss */
+body.page-node.node-type-page #block-system-main > .content > div > * > div > div,
+body.node-type-webform #block-system-main > .content > div > * > div > div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 688, ../sass/screen.scss */
+body.page-node.node-type-page #block-system-main > .content > div > *.field-name-title,
+body.node-type-webform #block-system-main > .content > div > *.field-name-title {
+  background: black;
+  color: white;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+/* line 696, ../sass/screen.scss */
+body.page-node.node-type-page #block-system-main > .content > div > *.field-name-title h1,
+body.node-type-webform #block-system-main > .content > div > *.field-name-title h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+/* line 702, ../sass/screen.scss */
+body.page-node.node-type-page #block-system-main > .content > div > *.field-name-field-title-description,
+body.node-type-webform #block-system-main > .content > div > *.field-name-field-title-description {
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  padding-bottom: 22px;
+  margin-top: -10px;
+  line-height: normal;
+}
+/* line 714, ../sass/screen.scss */
+body.page-node.node-type-page #block-system-main > .content > div > *.field-name-body,
+body.node-type-webform #block-system-main > .content > div > *.field-name-body {
+  padding-top: 20px;
+}
+
+/* line 720, ../sass/screen.scss */
+body.page-node.node-type-page .field-name-body {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+  overflow: hidden;
+}
+
+/* line 727, ../sass/screen.scss */
+body.services .field-name-body .field-item > p {
+  display: none;
+}
+
+/* line 734, ../sass/screen.scss */
+body.page-node-3 #block-system-main > .content > .node-page > .field.field-name-body {
+  padding-top: 0!important;
+}
+/* line 738, ../sass/screen.scss */
+body.page-node-3 #block-system-main > .content > .node-page > .field.field-name-body > div {
+  width: auto;
+  max-width: inherit;
+  margin: 0;
+}
+/* line 744, ../sass/screen.scss */
+body.page-node-3 #block-system-main > .content > .node-page > .field.field-name-body > div > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 752, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service {
+  clear: both;
+  color: white;
+  font-weight: 200;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25) inset;
+  border-bottom: 2px solid white;
+  line-height: normal;
+  background: url(../images/services-bg-highlight.png) no-repeat center bottom;
+}
+/* line 763, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service > div {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+/* line 769, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service > div > div {
+  padding: 38px 20px;
+  overflow: hidden;
+}
+/* line 776, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service h2 {
+  background: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 100px;
+  padding-top: 0;
+  line-height: 90px;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin-top: -4px;
+}
+/* line 791, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service img {
+  border-radius: 16px;
+  border: 2px solid white;
+}
+/* line 797, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 10px;
+}
+/* line 808, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.arboriculture {
+  background-color: #f6881f;
+}
+/* line 812, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.arboriculture > div div {
+  background: url(../images/services-bg-arboriculture.png) no-repeat 15% center;
+}
+/* line 817, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.arboriculture h2 {
+  background: url(../images/services-icon-arboriculture.png) no-repeat left center;
+}
+/* line 822, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.arboriculture img {
+  margin-left: 40px;
+}
+/* line 827, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.snow-and-ice {
+  background-color: #0e76bc;
+}
+/* line 831, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.snow-and-ice > div div {
+  background: url(../images/services-bg-snow-and-ice.png) no-repeat 85% center;
+}
+/* line 836, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.snow-and-ice h2 {
+  background: url(../images/services-icon-snow-and-ice.png) no-repeat left center;
+}
+/* line 841, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.snow-and-ice img {
+  margin-right: 40px;
+}
+/* line 846, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.lawn {
+  background-color: #035b31;
+}
+/* line 850, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.lawn > div div {
+  background: url(../images/services-bg-lawn.png) no-repeat 15% center;
+}
+/* line 855, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.lawn h2 {
+  background: url(../images/services-icon-lawn.png) no-repeat left center;
+}
+/* line 860, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.lawn img {
+  margin-left: 40px;
+}
+/* line 865, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.fencing {
+  background-color: #af0b2b;
+}
+/* line 869, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.fencing > div div {
+  background: url(../images/services-bg-fencing.png) no-repeat 85% bottom;
+}
+/* line 874, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.fencing h2 {
+  background: url(../images/services-icon-fencing.png) no-repeat left center;
+}
+/* line 879, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.fencing img {
+  margin-right: 40px;
+}
+/* line 884, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.residential {
+  background-color: #000000;
+}
+/* line 888, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.residential > div div {
+  background: url(../images/services-bg-residential.png) no-repeat 15% top;
+}
+/* line 893, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.residential h2 {
+  background: url(../images/services-icon-residential.png) no-repeat left center;
+}
+/* line 898, ../sass/screen.scss */
+body.page-node-3 #block-system-main .service.residential img {
+  margin-left: 40px;
+}
+
+/* line 909, ../sass/screen.scss */
+.view-homepage-services .icons ul,
+.view-services-pages .icons ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0!important;
+}
+/* line 916, ../sass/screen.scss */
+.view-homepage-services .icons ul li,
+.view-services-pages .icons ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0 6px;
+}
+/* line 923, ../sass/screen.scss */
+.view-homepage-services .icons ul li img,
+.view-services-pages .icons ul li img {
+  border-radius: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+/* line 932, ../sass/screen.scss */
+.view-homepage-services .views-row,
+.view-services-pages .views-row {
+  display: none;
+  color: white;
+  font-weight: 200;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.4) inset;
+  background: url(../images/services-bg-highlight.png) no-repeat center bottom;
+}
+/* line 942, ../sass/screen.scss */
+.view-homepage-services .views-row > div,
+.view-services-pages .views-row > div {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+/* line 948, ../sass/screen.scss */
+.view-homepage-services .views-row > div > div,
+.view-services-pages .views-row > div > div {
+  padding: 40px 20px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 956, ../sass/screen.scss */
+.view-homepage-services .views-row h2,
+.view-services-pages .views-row h2 {
+  text-transform: uppercase;
+  font-weight: 500!important;
+  font-size: 30px;
+  margin: 30px 0 !important;
+  background: none!important;
+  padding-top: 0!important;
+}
+/* line 966, ../sass/screen.scss */
+.view-homepage-services .views-row ul,
+.view-services-pages .views-row ul {
+  list-style: none;
+}
+/* line 971, ../sass/screen.scss */
+.view-homepage-services .views-row li,
+.view-services-pages .views-row li {
+  padding-left: 35px;
+  text-align: left;
+  list-style: none;
+  line-height: 160%;
+}
+/* line 978, ../sass/screen.scss */
+.view-homepage-services .views-row li a,
+.view-services-pages .views-row li a {
+  color: white;
+  text-decoration: none;
+}
+/* line 983, ../sass/screen.scss */
+.view-homepage-services .views-row li a:hover,
+.view-services-pages .views-row li a:hover {
+  text-decoration: underline;
+}
+/* line 989, ../sass/screen.scss */
+.view-homepage-services .views-row li strong,
+.view-services-pages .views-row li strong {
+  font-weight: 500;
+}
+/* line 995, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-body,
+.view-services-pages .views-row .views-field-body {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* line 1000, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-body p,
+.view-services-pages .views-row .views-field-body p {
+  margin-bottom: 0.8em;
+}
+/* line 1008, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-field-column-1,
+.view-homepage-services .views-row .views-field-field-column-2,
+.view-homepage-services .views-row .views-field-field-column-3,
+.view-services-pages .views-row .views-field-field-column-1,
+.view-services-pages .views-row .views-field-field-column-2,
+.view-services-pages .views-row .views-field-field-column-3 {
+  float: left;
+  font-size: 16px;
+  margin-bottom: 30px;
+  width: 32%;
+  margin-right: 2%;
+}
+/* line 1017, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-field-column-3,
+.view-services-pages .views-row .views-field-field-column-3 {
+  margin-right: 0;
+}
+/* line 1022, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-field-image-1,
+.view-services-pages .views-row .views-field-field-image-1 {
+  clear: left;
+}
+/* line 1026, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-field-image-4,
+.view-services-pages .views-row .views-field-field-image-4 {
+  margin-right: 0!important;
+}
+/* line 1034, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-field-image-1,
+.view-homepage-services .views-row .views-field-field-image-2,
+.view-homepage-services .views-row .views-field-field-image-3,
+.view-homepage-services .views-row .views-field-field-image-4,
+.view-services-pages .views-row .views-field-field-image-1,
+.view-services-pages .views-row .views-field-field-image-2,
+.view-services-pages .views-row .views-field-field-image-3,
+.view-services-pages .views-row .views-field-field-image-4 {
+  float: left;
+  width: 23.5%;
+  margin-right: 2%;
+}
+/* line 1040, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-field-image-1 a,
+.view-homepage-services .views-row .views-field-field-image-2 a,
+.view-homepage-services .views-row .views-field-field-image-3 a,
+.view-homepage-services .views-row .views-field-field-image-4 a,
+.view-services-pages .views-row .views-field-field-image-1 a,
+.view-services-pages .views-row .views-field-field-image-2 a,
+.view-services-pages .views-row .views-field-field-image-3 a,
+.view-services-pages .views-row .views-field-field-image-4 a {
+  display: block;
+}
+/* line 1044, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-field-image-1 a img,
+.view-homepage-services .views-row .views-field-field-image-2 a img,
+.view-homepage-services .views-row .views-field-field-image-3 a img,
+.view-homepage-services .views-row .views-field-field-image-4 a img,
+.view-services-pages .views-row .views-field-field-image-1 a img,
+.view-services-pages .views-row .views-field-field-image-2 a img,
+.view-services-pages .views-row .views-field-field-image-3 a img,
+.view-services-pages .views-row .views-field-field-image-4 a img {
+  width: 100%!important;
+  height: auto!important;
+  border-radius: 14px;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+/* line 1054, ../sass/screen.scss */
+.view-homepage-services .views-row .views-field-field-image-1 > div,
+.view-homepage-services .views-row .views-field-field-image-2 > div,
+.view-homepage-services .views-row .views-field-field-image-3 > div,
+.view-homepage-services .views-row .views-field-field-image-4 > div,
+.view-services-pages .views-row .views-field-field-image-1 > div,
+.view-services-pages .views-row .views-field-field-image-2 > div,
+.view-services-pages .views-row .views-field-field-image-3 > div,
+.view-services-pages .views-row .views-field-field-image-4 > div {
+  margin: 0 -2px;
+}
+/* line 1060, ../sass/screen.scss */
+.view-homepage-services .views-row.Arboriculture,
+.view-services-pages .views-row.Arboriculture {
+  background-color: #f6881f;
+  display: block;
+}
+/* line 1065, ../sass/screen.scss */
+.view-homepage-services .views-row.Arboriculture > div,
+.view-services-pages .views-row.Arboriculture > div {
+  background: url(../images/services-bg-arboriculture.png) no-repeat center bottom;
+}
+/* line 1070, ../sass/screen.scss */
+.view-homepage-services .views-row.Arboriculture .icons .arboriculture,
+.view-services-pages .views-row.Arboriculture .icons .arboriculture {
+  display: inline-block;
+}
+/* line 1074, ../sass/screen.scss */
+.view-homepage-services .views-row.Arboriculture .icons .arboriculture img,
+.view-services-pages .views-row.Arboriculture .icons .arboriculture img {
+  border: 2px solid white;
+  margin: -2px;
+}
+/* line 1081, ../sass/screen.scss */
+.view-homepage-services .views-row.Arboriculture li,
+.view-services-pages .views-row.Arboriculture li {
+  background: url(../images/bullet-arboriculture.png) no-repeat left center;
+}
+/* line 1086, ../sass/screen.scss */
+.view-homepage-services .views-row.Snow-and-Ice,
+.view-services-pages .views-row.Snow-and-Ice {
+  background-color: #0e76bc;
+}
+/* line 1090, ../sass/screen.scss */
+.view-homepage-services .views-row.Snow-and-Ice > div,
+.view-services-pages .views-row.Snow-and-Ice > div {
+  background: url(../images/services-bg-snow-and-ice.png) no-repeat center center;
+}
+/* line 1095, ../sass/screen.scss */
+.view-homepage-services .views-row.Snow-and-Ice .icons .snow-and-ice,
+.view-services-pages .views-row.Snow-and-Ice .icons .snow-and-ice {
+  display: inline-block;
+}
+/* line 1099, ../sass/screen.scss */
+.view-homepage-services .views-row.Snow-and-Ice .icons .snow-and-ice img,
+.view-services-pages .views-row.Snow-and-Ice .icons .snow-and-ice img {
+  border: 2px solid white;
+  margin: -2px;
+}
+/* line 1106, ../sass/screen.scss */
+.view-homepage-services .views-row.Snow-and-Ice li,
+.view-services-pages .views-row.Snow-and-Ice li {
+  background: url(../images/bullet-snow.png) no-repeat left center;
+}
+/* line 1111, ../sass/screen.scss */
+.view-homepage-services .views-row.Lawn-and-Landscape,
+.view-services-pages .views-row.Lawn-and-Landscape {
+  background-color: #035b31;
+}
+/* line 1115, ../sass/screen.scss */
+.view-homepage-services .views-row.Lawn-and-Landscape > div,
+.view-services-pages .views-row.Lawn-and-Landscape > div {
+  background: url(../images/services-bg-lawn.png) no-repeat center center;
+}
+/* line 1120, ../sass/screen.scss */
+.view-homepage-services .views-row.Lawn-and-Landscape .icons .lawn,
+.view-services-pages .views-row.Lawn-and-Landscape .icons .lawn {
+  display: inline-block;
+}
+/* line 1124, ../sass/screen.scss */
+.view-homepage-services .views-row.Lawn-and-Landscape .icons .lawn img,
+.view-services-pages .views-row.Lawn-and-Landscape .icons .lawn img {
+  border: 2px solid white;
+  margin: -2px;
+}
+/* line 1131, ../sass/screen.scss */
+.view-homepage-services .views-row.Lawn-and-Landscape li,
+.view-services-pages .views-row.Lawn-and-Landscape li {
+  background: url(../images/bullet-lawn.png) no-repeat left center;
+}
+/* line 1136, ../sass/screen.scss */
+.view-homepage-services .views-row.Fencing-and-Security,
+.view-services-pages .views-row.Fencing-and-Security {
+  background-color: #af0b2b;
+}
+/* line 1140, ../sass/screen.scss */
+.view-homepage-services .views-row.Fencing-and-Security > div,
+.view-services-pages .views-row.Fencing-and-Security > div {
+  background: url(../images/services-bg-fencing.png) no-repeat center center;
+}
+/* line 1145, ../sass/screen.scss */
+.view-homepage-services .views-row.Fencing-and-Security .icons .fencing,
+.view-services-pages .views-row.Fencing-and-Security .icons .fencing {
+  display: inline-block;
+}
+/* line 1149, ../sass/screen.scss */
+.view-homepage-services .views-row.Fencing-and-Security .icons .fencing img,
+.view-services-pages .views-row.Fencing-and-Security .icons .fencing img {
+  border: 2px solid white;
+  margin: -2px;
+}
+/* line 1156, ../sass/screen.scss */
+.view-homepage-services .views-row.Fencing-and-Security li,
+.view-services-pages .views-row.Fencing-and-Security li {
+  background: url(../images/bullet-fencing.png) no-repeat left center;
+}
+
+/* line 1165, ../sass/screen.scss */
+.view-services-pages .icons ul li {
+  display: none;
+}
+/* line 1170, ../sass/screen.scss */
+.view-services-pages .icons.small {
+  position: absolute;
+  left: 20px;
+}
+/* line 1175, ../sass/screen.scss */
+.view-services-pages .icons.small ul li {
+  display: inline-block;
+  margin: 0 1px;
+}
+/* line 1180, ../sass/screen.scss */
+.view-services-pages .icons.small ul li img {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  box-shadow: none;
+}
+/* line 1190, ../sass/screen.scss */
+.view-services-pages .views-row {
+  display: block;
+}
+/* line 1199, ../sass/screen.scss */
+.view-services-pages .views-row.Arboriculture .icons.small .arboriculture img, .view-services-pages .views-row.Snow-and-Ice .icons.small .snow-and-ice img, .view-services-pages .views-row.Lawn-and-Landscape .icons.small .lawn img, .view-services-pages .views-row.Fencing-and-Security .icons.small .fencing img {
+  margin: -1px;
+  border: 1px solid white;
+}
+
+/* line 1210, ../sass/screen.scss */
+body.services .view-header h1 {
+  background: black;
+  color: white;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-size: 36px;
+  font-weight: 500;
+}
+/* line 1220, ../sass/screen.scss */
+body.services #page-title {
+  display: none;
+}
+
+/* line 1228, ../sass/screen.scss */
+#block-views-team-members-block .views-row {
+  clear: both;
+  padding: 60px 0;
+  border-top: 1px solid #cccccc;
+}
+/* line 1235, ../sass/screen.scss */
+#block-views-team-members-block h2 {
+  background: none;
+  padding-top: 0;
+  text-align: left;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* line 1245, ../sass/screen.scss */
+#block-views-team-members-block .views-field-field-photo img {
+  float: left;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+/* line 1253, ../sass/screen.scss */
+#block-views-team-members-block .views-field-title,
+#block-views-team-members-block .views-field-body {
+  padding-left: 320px;
+}
+/* line 1260, ../sass/screen.scss */
+#block-views-team-members-block .views-field-title h2 {
+  padding-left: 57px;
+}
+/* line 1265, ../sass/screen.scss */
+#block-views-team-members-block .views-field-title p, #block-views-team-members-block .views-field-title br {
+  display: none;
+}
+/* line 1270, ../sass/screen.scss */
+#block-views-team-members-block .views-field-title:before {
+  float: left;
+  background: no-repeat left top;
+  width: 42px;
+  height: 43px;
+  content: "";
+}
+/* line 1279, ../sass/screen.scss */
+#block-views-team-members-block .views-field-title.Arboriculture:before {
+  background-image: url(../images/services-medium-arboriculture.png);
+}
+/* line 1283, ../sass/screen.scss */
+#block-views-team-members-block .views-field-title.Lawn-and-Landscape:before {
+  background-image: url(../images/services-medium-lawn.png);
+}
+/* line 1287, ../sass/screen.scss */
+#block-views-team-members-block .views-field-title.Snow-and-Ice:before {
+  background-image: url(../images/services-medium-snow.png);
+}
+/* line 1291, ../sass/screen.scss */
+#block-views-team-members-block .views-field-title.Fencing-and-Security:before {
+  background-image: url(../images/services-medium-fencing.png);
+}
+/* line 1297, ../sass/screen.scss */
+#block-views-team-members-block .views-field-field-titles {
+  padding-left: 377px;
+  font-size: 14px;
+}
+/* line 1302, ../sass/screen.scss */
+#block-views-team-members-block .views-field-field-titles ul {
+  margin: 0;
+  list-style: none;
+}
+/* line 1307, ../sass/screen.scss */
+#block-views-team-members-block .views-field-field-titles ul li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 6px;
+  margin: 0 0 0 6px;
+  border-left: 1px solid black;
+  line-height: 100%;
+}
+/* line 1316, ../sass/screen.scss */
+#block-views-team-members-block .views-field-field-titles ul li.first {
+  padding-left: 0;
+  margin-left: 0;
+  border-left: 0;
+}
+/* line 1326, ../sass/screen.scss */
+#block-views-team-members-block .views-field-body {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 125%;
+}
+/* line 1332, ../sass/screen.scss */
+#block-views-team-members-block .views-field-body ul {
+  list-style: none;
+  margin-left: 15px;
+}
+/* line 1337, ../sass/screen.scss */
+#block-views-team-members-block .views-field-body ul li {
+  list-style: none;
+  background: no-repeat left top;
+  padding-left: 20px;
+  margin-bottom: 3px;
+}
+/* line 1346, ../sass/screen.scss */
+#block-views-team-members-block .views-field-body.Arboriculture ul li {
+  background-image: url(../images/bullet-color-arboriculture.png);
+}
+/* line 1350, ../sass/screen.scss */
+#block-views-team-members-block .views-field-body.Lawn-and-Landscape ul li {
+  background-image: url(../images/bullet-color-lawn.png);
+}
+/* line 1354, ../sass/screen.scss */
+#block-views-team-members-block .views-field-body.Snow-and-Ice ul li {
+  background-image: url(../images/bullet-color-snow.png);
+}
+/* line 1358, ../sass/screen.scss */
+#block-views-team-members-block .views-field-body.Fencing-and-Security ul li {
+  background-image: url(../images/bullet-color-fencing.png);
+}
+
+/* line 1365, ../sass/screen.scss */
+#block-views-team-members-block-header {
+  text-align: center;
+}
+/* line 1369, ../sass/screen.scss */
+#block-views-team-members-block-header .views-row {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  margin: 10px 2px;
+}
+/* line 1377, ../sass/screen.scss */
+#block-views-team-members-block-header .views-field-field-photo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+/* line 1386, ../sass/screen.scss */
+#block-views-team-members-block-header .views-field-title h2 {
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+/* line 1394, ../sass/screen.scss */
+#block-views-team-members-block-header .views-field-title p, #block-views-team-members-block-header .views-field-title br {
+  display: none;
+}
+/* line 1400, ../sass/screen.scss */
+#block-views-team-members-block-header .views-field-field-titles ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 1406, ../sass/screen.scss */
+#block-views-team-members-block-header .views-field-field-titles ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+/* line 1418, ../sass/screen.scss */
+.view-homepage-carousel {
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8) inset;
+}
+/* line 1423, ../sass/screen.scss */
+.view-homepage-carousel:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  opacity: 0.5;
+  background: -moz-linear-gradient(left, black 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, black), color-stop(100%, rgba(0, 0, 0, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, black 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, black 0%, rgba(0, 0, 0, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, black 0%, rgba(0, 0, 0, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
+  /* IE6-9 */
+}
+/* line 1441, ../sass/screen.scss */
+.view-homepage-carousel .views-row {
+  display: none;
+}
+/* line 1445, ../sass/screen.scss */
+.view-homepage-carousel .views-row.active {
+  display: block;
+}
+/* line 1451, ../sass/screen.scss */
+.view-homepage-carousel .views-field-nothing {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  right: 40px;
+  color: white;
+  height: 100%;
+}
+/* line 1461, ../sass/screen.scss */
+.view-homepage-carousel .views-field-nothing .views-field-title,
+.view-homepage-carousel .views-field-nothing .views-field-body {
+  max-width: 500px;
+  width: 100%;
+  text-shadow: 1px 1px 3px black;
+}
+/* line 1468, ../sass/screen.scss */
+.view-homepage-carousel .views-field-nothing .views-field-title {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+/* line 1474, ../sass/screen.scss */
+.view-homepage-carousel .views-field-nothing .views-field-body {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 150%;
+}
+/* line 1481, ../sass/screen.scss */
+.view-homepage-carousel .views-field-nothing > div {
+  width: 100%;
+  height: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+/* line 1488, ../sass/screen.scss */
+.view-homepage-carousel .views-field-nothing > div > div {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+}
+/* line 1494, ../sass/screen.scss */
+.view-homepage-carousel .views-field-nothing > div > div > div {
+  display: table;
+  height: 100%;
+}
+/* line 1499, ../sass/screen.scss */
+.view-homepage-carousel .views-field-nothing > div > div > div > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 1509, ../sass/screen.scss */
+.view-homepage-carousel .views-field-field-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* line 1516, ../sass/screen.scss */
+.view-homepage-carousel #carousel-arrow-left {
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  width: 30px;
+  height: 53px;
+  margin-top: -27px;
+}
+/* line 1526, ../sass/screen.scss */
+.view-homepage-carousel #carousel-arrow-right {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 30px;
+  height: 53px;
+  margin-top: -27px;
+}

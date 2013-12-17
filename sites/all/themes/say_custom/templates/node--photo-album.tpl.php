@@ -1,0 +1,1 @@
+<?php print views_embed_view('photo_gallery_page', 'page', $node->nid); ?>
