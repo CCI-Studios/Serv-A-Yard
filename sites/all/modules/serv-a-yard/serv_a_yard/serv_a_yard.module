@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Serv-a-Yard feature.
+ */
+
+include_once 'serv_a_yard.features.inc';
