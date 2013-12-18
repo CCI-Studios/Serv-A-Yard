@@ -14,6 +14,8 @@ $color-residential:#231f20;
 body 
 {
 	font-family:"DDT", sans-serif;
+	font-size:16px;
+	-webkit-font-smoothing:antialiased;
 }
 
 a 
@@ -56,7 +58,7 @@ input[type=date],
 	padding:0 5px!important;
 	line-height:24px;
 	font-size:15px;
-	font-weight:300;
+	font-weight:400;
 	width:180px;
 	border-radius:6px;
 	color:#666;
@@ -69,7 +71,7 @@ textarea
 	border:1px solid #ccc;
 	padding:0 5px!important;
 	font-size:15px;
-	font-weight:300;
+	font-weight:400;
 	width:180px!important;
 	border-radius:6px;
 	color:#666;
@@ -560,7 +562,7 @@ body.page-user,
 		margin-right:20px;
 		margin-bottom:45px;
 		line-height:normal;
-		font-weight:300;
+		font-weight:400;
 	}
 
 	.views-field-field-images
@@ -709,7 +711,7 @@ body.node-type-webform
 			color:white;
 			text-align:center;
 			font-size:18px;
-			font-weight:200;
+			font-weight:400;
 			padding-bottom:22px;
 			margin-top:-10px;
 			line-height:normal;
@@ -757,7 +759,7 @@ body.page-node-3 #block-system-main
 	{
 		clear:both;
 		color:white;
-		font-weight:200;
+		font-weight:400;
 		text-shadow:1px 1px 2px rgba(0,0,0,0.25);
 		box-shadow:0 0 12px rgba(0,0,0,0.25) inset;
 		border-bottom:2px solid white;
@@ -948,7 +950,7 @@ body.page-node-3 #block-system-main
 	{
 		display:none;
 		color:white;
-		font-weight:200;
+		font-weight:400;
 		text-shadow:1px 1px 2px rgba(0,0,0,0.25);
 		text-align:center;
 		box-shadow:0 0 11px rgba(0,0,0,0.4) inset;
@@ -1513,7 +1515,7 @@ body.services
 		.views-field-body 
 		{
 			font-size:24px;
-			font-weight:200;
+			font-weight:400;
 			line-height:150%;
 		}
 

@@ -47,6 +47,7 @@
 
 <head>
   <?php print $head; ?>
+  <meta name="viewport" content="width=device-width">
   <title><?php print $head_title_array['name']; ?></title>
   <link href='http://fonts.googleapis.com/css?family=Jura:400,600' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
