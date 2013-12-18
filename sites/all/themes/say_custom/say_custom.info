@@ -4,6 +4,7 @@ core = 7.x
 
 scripts[] = js/carousel.js
 scripts[] = js/homepage-services.js
+scripts[] = js/mobile-menu.js
 
 stylesheets[all][] = stylesheets/screen.css
 

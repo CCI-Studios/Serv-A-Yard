@@ -84,6 +84,7 @@
       <?php endif; ?>
 
       <?php print render($page['navigation']); ?>
+      <div class="clearfix"></div>
     </div></div></div>
 
     <div id="header"><div class="section">
