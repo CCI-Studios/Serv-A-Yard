@@ -1,0 +1,26 @@
+#logo img
+{
+	max-width:none;
+}
+
+#block-system-main-menu .content>ul>li>a
+{
+	min-width:auto;
+	width:110px;
+	padding-left:8px;
+	padding-right:8px;
+}
+
+.view-services-pages .icons.small ul li a img 
+{
+	max-width:none!important;
+}
+
+.view-photo-gallery .views-field-field-images a img 
+{
+	max-width:none!important;
+}
+.view-photo-gallery-page .views-field-field-images img
+{
+	max-width:none!important;
+}

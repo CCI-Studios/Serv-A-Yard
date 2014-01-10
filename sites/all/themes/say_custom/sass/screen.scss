@@ -185,7 +185,6 @@ input[type=submit]
 	img 
 	{
 		vertical-align:middle;
-		height:155px;
 		width:299px;
 		max-width:100%;
 	}
@@ -194,8 +193,6 @@ input[type=submit]
 #block-system-main-menu
 {
 	float:right;
-	margin-top:25px;
-	height:20px;
 
 	.content > ul 
 	{
@@ -208,7 +205,6 @@ input[type=submit]
 			padding:0;
 			margin:0;
 			position:relative;
-			padding-bottom:12px;
 
 			& > a 
 			{
@@ -218,6 +214,8 @@ input[type=submit]
 				color:black;
 				text-decoration:none;
 				padding:20px 15px 12px 15px;
+				display:block;
+				min-width:42px;
 
 				&.facebook,
 				&:hover.facebook
@@ -225,7 +223,7 @@ input[type=submit]
 					font-size:0;
 					color:transparent;
 					width:27px;
-					height:27px;
+					min-width:0;
 					display:block;
 					background:url(../images/facebook.png) no-repeat right top;
 				}
@@ -376,18 +374,23 @@ input[type=submit]
 		text-align:center;
 		float:right;
 
-		a 
+		a.request-quote
 		{
 			color:white;
 			font-size:24px;
 			font-weight:bold;
 			padding:16px;
-			display:inline-block;
+			display:block;
 			text-align:center;
 			border-radius:10px;
 			background:#af0b2b;
 			text-transform:uppercase;
 			text-decoration:none;
+		}
+
+		.phone a
+		{
+			color:#af0b2b!important;
 		}
 	}
 }
@@ -460,6 +463,7 @@ input[type=submit]
 			display:inline-block;
 			margin-bottom:20px;
 			margin-top:20px;
+			text-align:center;
 
 			li 
 			{
@@ -506,7 +510,7 @@ input[type=submit]
 
 body.page-say-work,
 body.node-type-photo-album,
-body.page-user,
+body.page-user
 {
 	#page-title
 	{
@@ -607,12 +611,12 @@ body.page-user,
 
 	ul
 	{
-		margin:0 -20px 0 0 !important;
+		margin:0 -20px 20px 0 !important;
 
 		li
 		{
 			float:left;
-			margin:0 20px 20px 0;
+			margin:20px 20px 0 0;
 			padding:0;
 			list-style:none;
 		}
@@ -735,7 +739,8 @@ body.services .field-name-body .field-item > p
 	display:none;
 }
 
-body.page-node-3 #block-system-main 
+body.page-node-3 #block-system-main,
+#block-system-main .view-services-listing
 {
 	& > .content > .node-page > .field.field-name-body
 	{
@@ -755,14 +760,15 @@ body.page-node-3 #block-system-main
 		}
 	}
 
-	.service
+	.service,
+	.views-row
 	{
 		clear:both;
 		color:white;
 		font-weight:400;
 		text-shadow:1px 1px 2px rgba(0,0,0,0.25);
 		box-shadow:0 0 12px rgba(0,0,0,0.25) inset;
-		border-bottom:2px solid white;
+		border-top:2px solid white;
 		line-height:normal;
 		background:url(../images/services-bg-highlight.png) no-repeat center bottom;
 
@@ -786,12 +792,11 @@ body.page-node-3 #block-system-main
 			font-size:30px;
 			text-align:left;
 			font-weight:500;
-			line-height:30px;
 			padding:0;
 			margin-bottom:20px;
 			margin-top:-4px;
 			line-height:90px;
-			display:inline;
+			display:inline-block;
 
 			&:before
 			{
@@ -822,11 +827,12 @@ body.page-node-3 #block-system-main
 			top:10px;
 		}
 
-		&.arboriculture
+		&.arboriculture,
+		&.Arboriculture
 		{
 			background-color:#f6881f;
 
-			& > div div 
+			& > div > div 
 			{
 				background:url(../images/services-bg-arboriculture.png) no-repeat 15% center;
 			}
@@ -839,13 +845,15 @@ body.page-node-3 #block-system-main
 			img 
 			{
 				margin-left:40px;
+				float:right;
 			}
 		}
-		&.snow-and-ice
+		&.snow-and-ice,
+		&.Snow-and-Ice
 		{
 			background-color:#0e76bc;
 
-			& > div div 
+			& > div > div 
 			{
 				background:url(../images/services-bg-snow-and-ice.png) no-repeat 85% center;
 			}
@@ -858,13 +866,15 @@ body.page-node-3 #block-system-main
 			img 
 			{
 				margin-right:40px;
+				float:left;
 			}
 		}
-		&.lawn
+		&.lawn,
+		&.Lawn-and-Landscape
 		{
 			background-color:#035b31;
 
-			& > div div 
+			& > div > div 
 			{
 				background:url(../images/services-bg-lawn.png) no-repeat 15% center;
 			}
@@ -877,13 +887,15 @@ body.page-node-3 #block-system-main
 			img 
 			{
 				margin-left:40px;
+				float:right;
 			}
 		}
-		&.fencing
+		&.fencing,
+		&.Fencing-and-Security
 		{
 			background-color:#af0b2b;
 
-			& > div div 
+			& > div > div 
 			{
 				background:url(../images/services-bg-fencing.png) no-repeat 85% bottom;
 			}
@@ -896,13 +908,15 @@ body.page-node-3 #block-system-main
 			img 
 			{
 				margin-right:40px;
+				float:left;
 			}
 		}
-		&.residential
+		&.residential,
+		&.Residential
 		{
 			background-color:#000000;
 
-			& > div div 
+			& > div > div 
 			{
 				background:url(../images/services-bg-residential.png) no-repeat 15% top;
 			}
@@ -915,6 +929,7 @@ body.page-node-3 #block-system-main
 			img 
 			{
 				margin-left:40px;
+				float:right;
 			}
 		}
 	}
@@ -936,6 +951,7 @@ body.page-node-3 #block-system-main
 			display:inline-block;
 			padding:0;
 			margin:0 6px;
+			background:none!important;
 
 			img 
 			{
@@ -955,6 +971,7 @@ body.page-node-3 #block-system-main
 		text-align:center;
 		box-shadow:0 0 11px rgba(0,0,0,0.4) inset;
 		background:url(../images/services-bg-highlight.png) no-repeat center bottom;
+		border-top:2px solid white;
 
 		& > div 
 		{
@@ -1098,7 +1115,7 @@ body.page-node-3 #block-system-main
 
 			li 
 			{
-				background:url(../images/bullet-arboriculture.png) no-repeat left center;
+				background:url(../images/bullet-arboriculture.png) no-repeat left top;
 			}
 		}
 		&.Snow-and-Ice
@@ -1123,7 +1140,7 @@ body.page-node-3 #block-system-main
 
 			li 
 			{
-				background:url(../images/bullet-snow.png) no-repeat left center;
+				background:url(../images/bullet-snow.png) no-repeat left top;
 			}
 		}
 		&.Lawn-and-Landscape
@@ -1148,7 +1165,7 @@ body.page-node-3 #block-system-main
 
 			li 
 			{
-				background:url(../images/bullet-lawn.png) no-repeat left center;
+				background:url(../images/bullet-lawn.png) no-repeat left top;
 			}
 		}
 		&.Fencing-and-Security
@@ -1173,7 +1190,7 @@ body.page-node-3 #block-system-main
 
 			li 
 			{
-				background:url(../images/bullet-fencing.png) no-repeat left center;
+				background:url(../images/bullet-fencing.png) no-repeat left top;
 			}
 		}
 		&.Residential
@@ -1198,7 +1215,7 @@ body.page-node-3 #block-system-main
 
 			li 
 			{
-				background:url(../images/bullet-residential.png) no-repeat left center;
+				background:url(../images/bullet-residential.png) no-repeat left top;
 			}
 		}
 	}
@@ -1259,10 +1276,17 @@ body.services
 		padding-bottom:22px;
 		font-size:36px;
 		font-weight:500;
+		border-bottom:2px solid white;
 	}
 	#page-title
 	{
-		display:none;
+		background:black;
+		color:white;
+		text-align:center;
+		padding-top:22px;
+		padding-bottom:22px;
+		font-size:36px;
+		font-weight:500;
 	}
 }
 
@@ -1585,9 +1609,14 @@ body.services
 
 
 
+
+
+
+
+
 @media screen and (max-width:976px)
 {
-	body.page-node-3 #block-system-main .service h2
+	#block-system-main .view-services-listing .views-row h2
 	{
 		font-size:24px;
 	}
@@ -1607,7 +1636,7 @@ body.services
 		}
 	}
 
-	body.page-node-3 #block-system-main .service
+	#block-system-main .view-services-listing .views-row
 	{
 		text-align:center;
 
@@ -1632,7 +1661,7 @@ body.services
 
 
 
-@media screen and (max-width:768px)
+@media screen and (max-width:768px), screen and (max-width:1024px) and (orientation:landscape)
 {
 	.field-name-field-title-description
 	{
@@ -1668,7 +1697,7 @@ body.services
 			margin-top:15px;
 			font-size:18px;
 
-			a 
+			a.request-quote
 			{
 				padding:12px;
 				font-size:18px;
@@ -1721,7 +1750,6 @@ body.services
 				&.facebook,
 				&.facebook:hover
 				{
-					padding:7px 0;
 					display:block;
 					width:auto;
 					background-position:10px center;
@@ -1808,6 +1836,22 @@ body.services
 		text-align:center;
 	}
 
+	body.contact-us #block-system-main
+	{
+		.left,
+		.right 
+		{
+			float:none;
+			width:auto;
+			margin-right:0;
+		}
+	}
+
+	.form-actions
+	{
+		margin-left:0;
+		text-align:center;
+	}
 }
 
 
@@ -1996,13 +2040,19 @@ body.services
 			}
 		}
 	}
+
+	#footer #block-menu-menu-footer-menu .content > ul li a
+	{
+		font-size:12px;
+		padding:0 6px 0 2px;
+	}
 }
 
 
 
 @media screen and (max-width:540px)
 {
-	body.page-node-3 #block-system-main .service
+	#block-system-main .view-services-listing .views-row
 	{
 		h2 
 		{
@@ -2042,12 +2092,6 @@ body.services
 	{
 		left:30px;
 		right:30px;
-	}
-
-	#footer #block-menu-menu-footer-menu .content > ul li a
-	{
-		font-size:12px;
-		padding:0 6px 0 2px;
 	}
 }
 

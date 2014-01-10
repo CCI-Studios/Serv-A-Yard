@@ -34,9 +34,11 @@ var services = {
 
 	function homepage_services_change(type)
 	{
+		$("body").css("padding-bottom","800px");
 		homepage_services_hide();
 		$(".view-homepage-services .views-row."+type).show();
 		homepage_services_current = type;
+		$("body").css("padding-bottom","0");
 	}
 
 	function homepage_services_arboriculture(event)

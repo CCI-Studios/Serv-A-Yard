@@ -42,18 +42,24 @@
  *
  * @ingroup themeable
  */
+
+$title = $head_title_array['name'] . ' | ' . variable_get('site_slogan', '');
+
 ?><!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
 
 <head>
   <?php print $head; ?>
   <meta name="viewport" content="width=device-width">
-  <title><?php print $head_title_array['name']; ?></title>
+  <title><?php print $title; ?></title>
   <link href='http://fonts.googleapis.com/css?family=Jura:400,600' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="//use.typekit.net/vxn2xrj.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <?php print $styles; ?>
+  <!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="/sites/all/themes/say_custom/css/ie8.css" />
+  <![endif]-->
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>

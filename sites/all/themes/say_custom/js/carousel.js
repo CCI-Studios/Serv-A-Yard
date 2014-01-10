@@ -7,7 +7,7 @@ var carousel_timer;
 
 		$(".view-homepage-carousel .views-row-1").addClass("active");
 
-		carousel_timer = setInterval(next, 4000);
+		carousel_timer = setInterval(next, 8000);
 	});
 
 	function left(event)
