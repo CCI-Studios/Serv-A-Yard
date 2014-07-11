@@ -1013,7 +1013,7 @@ body.page-node-3 #block-system-main,
 			a 
 			{
 				color:white;
-				text-decoration:none;
+				text-decoration:underline;
 
 				&:hover 
 				{
@@ -1297,6 +1297,7 @@ body.services
 		clear:both;
 		padding:60px 0;
 		border-top:1px solid #ccc;
+		overflow:hidden;
 	}
 
 	h2 
