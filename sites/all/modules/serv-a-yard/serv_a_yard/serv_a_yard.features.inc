@@ -31,17 +31,9 @@ function serv_a_yard_image_default_styles() {
 
   // Exported image style: carousel_background.
   $styles['carousel_background'] = array(
-    'name' => 'carousel_background',
     'label' => 'Carousel Background',
     'effects' => array(
       4 => array(
-        'label' => 'Crop and scale manually',
-        'help' => 'Crop and scale a user-selected area, respecting the ratio of the destination width and height.',
-        'effect callback' => 'manualcrop_crop_and_scale_effect',
-        'dimensions callback' => 'image_resize_dimensions',
-        'form callback' => 'manualcrop_crop_and_scale_form',
-        'summary theme' => 'manualcrop_crop_and_scale_summary',
-        'module' => 'manualcrop',
         'name' => 'manualcrop_crop_and_scale',
         'data' => array(
           'width' => 1220,
@@ -58,17 +50,9 @@ function serv_a_yard_image_default_styles() {
 
   // Exported image style: header_image.
   $styles['header_image'] = array(
-    'name' => 'header_image',
     'label' => 'Header Image',
     'effects' => array(
       6 => array(
-        'label' => 'Crop and scale manually',
-        'help' => 'Crop and scale a user-selected area, respecting the ratio of the destination width and height.',
-        'effect callback' => 'manualcrop_crop_and_scale_effect',
-        'dimensions callback' => 'image_resize_dimensions',
-        'form callback' => 'manualcrop_crop_and_scale_form',
-        'summary theme' => 'manualcrop_crop_and_scale_summary',
-        'module' => 'manualcrop',
         'name' => 'manualcrop_crop_and_scale',
         'data' => array(
           'width' => 1200,
@@ -85,17 +69,9 @@ function serv_a_yard_image_default_styles() {
 
   // Exported image style: homepage_services_image.
   $styles['homepage_services_image'] = array(
-    'name' => 'homepage_services_image',
     'label' => 'Homepage Services Image',
     'effects' => array(
       1 => array(
-        'label' => 'Crop and scale manually',
-        'help' => 'Crop and scale a user-selected area, respecting the ratio of the destination width and height.',
-        'effect callback' => 'manualcrop_crop_and_scale_effect',
-        'dimensions callback' => 'image_resize_dimensions',
-        'form callback' => 'manualcrop_crop_and_scale_form',
-        'summary theme' => 'manualcrop_crop_and_scale_summary',
-        'module' => 'manualcrop',
         'name' => 'manualcrop_crop_and_scale',
         'data' => array(
           'width' => 220,
@@ -112,17 +88,9 @@ function serv_a_yard_image_default_styles() {
 
   // Exported image style: photo_gallery_thumbnail.
   $styles['photo_gallery_thumbnail'] = array(
-    'name' => 'photo_gallery_thumbnail',
     'label' => 'Photo Gallery Thumbnail',
     'effects' => array(
       2 => array(
-        'label' => 'Scale and crop',
-        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
-        'effect callback' => 'image_scale_and_crop_effect',
-        'dimensions callback' => 'image_resize_dimensions',
-        'form callback' => 'image_resize_form',
-        'summary theme' => 'image_resize_summary',
-        'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 220,
@@ -135,17 +103,9 @@ function serv_a_yard_image_default_styles() {
 
   // Exported image style: service_listing_photo.
   $styles['service_listing_photo'] = array(
-    'name' => 'service_listing_photo',
     'label' => 'Service Listing Photo',
     'effects' => array(
       5 => array(
-        'label' => 'Crop and scale manually',
-        'help' => 'Crop and scale a user-selected area, respecting the ratio of the destination width and height.',
-        'effect callback' => 'manualcrop_crop_and_scale_effect',
-        'dimensions callback' => 'image_resize_dimensions',
-        'form callback' => 'manualcrop_crop_and_scale_form',
-        'summary theme' => 'manualcrop_crop_and_scale_summary',
-        'module' => 'manualcrop',
         'name' => 'manualcrop_crop_and_scale',
         'data' => array(
           'width' => 360,
@@ -162,17 +122,9 @@ function serv_a_yard_image_default_styles() {
 
   // Exported image style: team_member_photo.
   $styles['team_member_photo'] = array(
-    'name' => 'team_member_photo',
     'label' => 'Team Member Photo',
     'effects' => array(
       3 => array(
-        'label' => 'Crop and scale manually',
-        'help' => 'Crop and scale a user-selected area, respecting the ratio of the destination width and height.',
-        'effect callback' => 'manualcrop_crop_and_scale_effect',
-        'dimensions callback' => 'image_resize_dimensions',
-        'form callback' => 'manualcrop_crop_and_scale_form',
-        'summary theme' => 'manualcrop_crop_and_scale_summary',
-        'module' => 'manualcrop',
         'name' => 'manualcrop_crop_and_scale',
         'data' => array(
           'width' => 300,
@@ -244,5 +196,6 @@ function serv_a_yard_node_info() {
       'help' => '',
     ),
   );
+  drupal_alter('node_info', $items);
   return $items;
 }

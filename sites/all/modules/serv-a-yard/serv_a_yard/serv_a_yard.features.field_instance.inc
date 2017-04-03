@@ -10,7 +10,7 @@
 function serv_a_yard_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'bean-header_image-field_background_image'
+  // Exported field_instance: 'bean-header_image-field_background_image'.
   $field_instances['bean-header_image-field_background_image'] = array(
     'bundle' => 'header_image',
     'deleted' => 0,
@@ -76,7 +76,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-carousel_slide-body'
+  // Exported field_instance: 'node-carousel_slide-body'.
   $field_instances['node-carousel_slide-body'] = array(
     'bundle' => 'carousel_slide',
     'default_value' => NULL,
@@ -120,7 +120,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-carousel_slide-field_photo'
+  // Exported field_instance: 'node-carousel_slide-field_photo'.
   $field_instances['node-carousel_slide-field_photo'] = array(
     'bundle' => 'carousel_slide',
     'deleted' => 0,
@@ -192,7 +192,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-body'
+  // Exported field_instance: 'node-homepage_services-body'.
   $field_instances['node-homepage_services-body'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -234,7 +234,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_column_1'
+  // Exported field_instance: 'node-homepage_services-field_column_1'.
   $field_instances['node-homepage_services-field_column_1'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -274,7 +274,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_column_2'
+  // Exported field_instance: 'node-homepage_services-field_column_2'.
   $field_instances['node-homepage_services-field_column_2'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -314,7 +314,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_column_3'
+  // Exported field_instance: 'node-homepage_services-field_column_3'.
   $field_instances['node-homepage_services-field_column_3'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -354,7 +354,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_image_1'
+  // Exported field_instance: 'node-homepage_services-field_image_1'.
   $field_instances['node-homepage_services-field_image_1'] = array(
     'bundle' => 'homepage_services',
     'deleted' => 0,
@@ -418,7 +418,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_image_1_url'
+  // Exported field_instance: 'node-homepage_services-field_image_1_url'.
   $field_instances['node-homepage_services-field_image_1_url'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -458,7 +458,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_image_2'
+  // Exported field_instance: 'node-homepage_services-field_image_2'.
   $field_instances['node-homepage_services-field_image_2'] = array(
     'bundle' => 'homepage_services',
     'deleted' => 0,
@@ -522,7 +522,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_image_2_url'
+  // Exported field_instance: 'node-homepage_services-field_image_2_url'.
   $field_instances['node-homepage_services-field_image_2_url'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -562,7 +562,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_image_3'
+  // Exported field_instance: 'node-homepage_services-field_image_3'.
   $field_instances['node-homepage_services-field_image_3'] = array(
     'bundle' => 'homepage_services',
     'deleted' => 0,
@@ -626,7 +626,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_image_3_url'
+  // Exported field_instance: 'node-homepage_services-field_image_3_url'.
   $field_instances['node-homepage_services-field_image_3_url'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -666,7 +666,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_image_4'
+  // Exported field_instance: 'node-homepage_services-field_image_4'.
   $field_instances['node-homepage_services-field_image_4'] = array(
     'bundle' => 'homepage_services',
     'deleted' => 0,
@@ -730,7 +730,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_image_4_url'
+  // Exported field_instance: 'node-homepage_services-field_image_4_url'.
   $field_instances['node-homepage_services-field_image_4_url'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -770,7 +770,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-homepage_services-field_service_type'
+  // Exported field_instance: 'node-homepage_services-field_service_type'.
   $field_instances['node-homepage_services-field_service_type'] = array(
     'bundle' => 'homepage_services',
     'default_value' => NULL,
@@ -807,7 +807,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-photo_album-field_album_category'
+  // Exported field_instance: 'node-photo_album-field_album_category'.
   $field_instances['node-photo_album-field_album_category'] = array(
     'bundle' => 'photo_album',
     'default_value' => NULL,
@@ -848,7 +848,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-photo_album-field_images'
+  // Exported field_instance: 'node-photo_album-field_images'.
   $field_instances['node-photo_album-field_images'] = array(
     'bundle' => 'photo_album',
     'deleted' => 0,
@@ -865,6 +865,7 @@ function serv_a_yard_field_default_field_instances() {
           'colorbox_image_style' => '',
           'colorbox_multivalue_index' => NULL,
           'colorbox_node_style' => '',
+          'colorbox_node_style_first' => '',
         ),
         'type' => 'colorbox',
         'weight' => 2,
@@ -903,7 +904,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-photo_album-field_subtitle'
+  // Exported field_instance: 'node-photo_album-field_subtitle'.
   $field_instances['node-photo_album-field_subtitle'] = array(
     'bundle' => 'photo_album',
     'default_value' => NULL,
@@ -947,7 +948,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-body'
+  // Exported field_instance: 'node-services-body'.
   $field_instances['node-services-body'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -991,7 +992,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_column_1'
+  // Exported field_instance: 'node-services-field_column_1'.
   $field_instances['node-services-field_column_1'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -1031,7 +1032,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_column_2'
+  // Exported field_instance: 'node-services-field_column_2'.
   $field_instances['node-services-field_column_2'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -1071,7 +1072,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_column_3'
+  // Exported field_instance: 'node-services-field_column_3'.
   $field_instances['node-services-field_column_3'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -1111,7 +1112,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_image_1'
+  // Exported field_instance: 'node-services-field_image_1'.
   $field_instances['node-services-field_image_1'] = array(
     'bundle' => 'services',
     'deleted' => 0,
@@ -1177,7 +1178,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_image_1_url'
+  // Exported field_instance: 'node-services-field_image_1_url'.
   $field_instances['node-services-field_image_1_url'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -1217,7 +1218,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_image_2'
+  // Exported field_instance: 'node-services-field_image_2'.
   $field_instances['node-services-field_image_2'] = array(
     'bundle' => 'services',
     'deleted' => 0,
@@ -1283,7 +1284,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_image_2_url'
+  // Exported field_instance: 'node-services-field_image_2_url'.
   $field_instances['node-services-field_image_2_url'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -1323,7 +1324,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_image_3'
+  // Exported field_instance: 'node-services-field_image_3'.
   $field_instances['node-services-field_image_3'] = array(
     'bundle' => 'services',
     'deleted' => 0,
@@ -1389,7 +1390,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_image_3_url'
+  // Exported field_instance: 'node-services-field_image_3_url'.
   $field_instances['node-services-field_image_3_url'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -1429,7 +1430,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_image_4'
+  // Exported field_instance: 'node-services-field_image_4'.
   $field_instances['node-services-field_image_4'] = array(
     'bundle' => 'services',
     'deleted' => 0,
@@ -1495,7 +1496,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_image_4_url'
+  // Exported field_instance: 'node-services-field_image_4_url'.
   $field_instances['node-services-field_image_4_url'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -1535,7 +1536,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services-field_service_type'
+  // Exported field_instance: 'node-services-field_service_type'.
   $field_instances['node-services-field_service_type'] = array(
     'bundle' => 'services',
     'default_value' => NULL,
@@ -1572,7 +1573,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services_listing-body'
+  // Exported field_instance: 'node-services_listing-body'.
   $field_instances['node-services_listing-body'] = array(
     'bundle' => 'services_listing',
     'default_value' => NULL,
@@ -1616,7 +1617,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services_listing-field_link'
+  // Exported field_instance: 'node-services_listing-field_link'.
   $field_instances['node-services_listing-field_link'] = array(
     'bundle' => 'services_listing',
     'default_value' => NULL,
@@ -1656,7 +1657,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services_listing-field_link_text'
+  // Exported field_instance: 'node-services_listing-field_link_text'.
   $field_instances['node-services_listing-field_link_text'] = array(
     'bundle' => 'services_listing',
     'default_value' => NULL,
@@ -1696,7 +1697,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services_listing-field_photo'
+  // Exported field_instance: 'node-services_listing-field_photo'.
   $field_instances['node-services_listing-field_photo'] = array(
     'bundle' => 'services_listing',
     'deleted' => 0,
@@ -1766,7 +1767,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-services_listing-field_service_type'
+  // Exported field_instance: 'node-services_listing-field_service_type'.
   $field_instances['node-services_listing-field_service_type'] = array(
     'bundle' => 'services_listing',
     'default_value' => NULL,
@@ -1803,7 +1804,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-team_member-body'
+  // Exported field_instance: 'node-team_member-body'.
   $field_instances['node-team_member-body'] = array(
     'bundle' => 'team_member',
     'default_value' => NULL,
@@ -1847,7 +1848,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-team_member-field_photo'
+  // Exported field_instance: 'node-team_member-field_photo'.
   $field_instances['node-team_member-field_photo'] = array(
     'bundle' => 'team_member',
     'deleted' => 0,
@@ -1913,7 +1914,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-team_member-field_service_speciality'
+  // Exported field_instance: 'node-team_member-field_service_speciality'.
   $field_instances['node-team_member-field_service_speciality'] = array(
     'bundle' => 'team_member',
     'default_value' => NULL,
@@ -1950,7 +1951,7 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-team_member-field_titles'
+  // Exported field_instance: 'node-team_member-field_titles'.
   $field_instances['node-team_member-field_titles'] = array(
     'bundle' => 'team_member',
     'default_value' => NULL,

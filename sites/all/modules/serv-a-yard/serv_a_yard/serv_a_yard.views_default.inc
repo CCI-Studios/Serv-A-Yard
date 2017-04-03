@@ -423,8 +423,9 @@ function serv_a_yard_views_default_views() {
   $handler->display->display_options['fields']['field_images']['type'] = 'colorbox';
   $handler->display->display_options['fields']['field_images']['settings'] = array(
     'colorbox_node_style' => 'photo_gallery_thumbnail',
+    'colorbox_node_style_first' => '',
     'colorbox_image_style' => '',
-    'colorbox_gallery' => 'post',
+    'colorbox_gallery' => 'page',
     'colorbox_gallery_custom' => '',
     'colorbox_caption' => 'auto',
     'colorbox_caption_custom' => '',
