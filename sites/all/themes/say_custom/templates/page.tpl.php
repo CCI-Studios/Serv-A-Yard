@@ -122,8 +122,7 @@
 
     <div id="footer"><div class="section">
       <?php print render($page['footer']); ?>
-      <div id="copyright"><span>&copy;</span> Serv-a-Yard <?php print date('Y'); ?>. All rights reserved</div>
-      <div id="site-by-cci">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></div>
+      <div id="copyright"><span>&copy;</span> Serv-a-Yard <?php print date('Y'); ?>. All Rights Reserved</div>
     </div></div> <!-- /.section, /#footer -->
 
 
