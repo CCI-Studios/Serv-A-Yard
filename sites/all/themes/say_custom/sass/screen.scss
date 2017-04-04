@@ -1114,6 +1114,22 @@ body.page-node-3 #block-system-main,
 				margin: 0 auto;
 			}
 		}
+		.learn-more
+		{
+			color: white;
+			text-transform: uppercase;
+			text-align: center;
+			display: inline-block;
+			min-width: 120px;
+			padding: 8px 30px;
+			border-radius: 5px;
+			font-weight: bold;
+			line-height: 1;
+			margin-top: 1.25em;
+			text-decoration: none;
+			font-size: 15px;
+			background-color: $color-arboriculture;
+		}
 		.views-field-field-background-image
 		{
 			display: table-cell;
@@ -1152,6 +1168,10 @@ body.page-node-3 #block-system-main,
 			{
 				color:$color-snow;
 			}
+			.learn-more
+			{
+				background-color: $color-snow;
+			}
 		}
 		&.Lawn-and-Landscape
 		{
@@ -1160,6 +1180,10 @@ body.page-node-3 #block-system-main,
 			h2
 			{
 				color:$color-lawn;
+			}
+			.learn-more
+			{
+				background-color: $color-lawn;
 			}
 			.views-field-nothing
 			{
@@ -1177,6 +1201,10 @@ body.page-node-3 #block-system-main,
 			h2
 			{
 				color:$color-fencing;
+			}
+			.learn-more
+			{
+				background-color: $color-fencing;
 			}
 			.views-field-nothing
 			{
