@@ -29,21 +29,37 @@ function serv_a_yard_views_api($module = NULL, $api = NULL) {
 function serv_a_yard_image_default_styles() {
   $styles = array();
 
+  // Exported image style: associations_logo.
+  $styles['associations_logo'] = array(
+    'label' => 'Associations Logo',
+    'effects' => array(
+      12 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 400,
+          'height' => 150,
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: carousel_background.
   $styles['carousel_background'] = array(
     'label' => 'Carousel Background',
     'effects' => array(
-      4 => array(
-        'name' => 'manualcrop_crop_and_scale',
+      9 => array(
+        'name' => 'focal_point_scale_and_crop',
         'data' => array(
           'width' => 1220,
-          'height' => 575,
-          'upscale' => 0,
-          'respectminimum' => 1,
-          'onlyscaleifcrop' => 0,
-          'style_name' => 'carousel_background',
+          'height' => 500,
+          'focal_point_advanced' => array(
+            'shift_x' => '',
+            'shift_y' => '',
+          ),
         ),
-        'weight' => 0,
+        'weight' => 2,
       ),
     ),
   );
@@ -52,17 +68,17 @@ function serv_a_yard_image_default_styles() {
   $styles['header_image'] = array(
     'label' => 'Header Image',
     'effects' => array(
-      6 => array(
-        'name' => 'manualcrop_crop_and_scale',
+      10 => array(
+        'name' => 'focal_point_scale_and_crop',
         'data' => array(
           'width' => 1200,
           'height' => 360,
-          'upscale' => 0,
-          'respectminimum' => 1,
-          'onlyscaleifcrop' => 0,
-          'style_name' => 'header_image',
+          'focal_point_advanced' => array(
+            'shift_x' => '',
+            'shift_y' => '',
+          ),
         ),
-        'weight' => 0,
+        'weight' => 2,
       ),
     ),
   );
@@ -71,51 +87,33 @@ function serv_a_yard_image_default_styles() {
   $styles['homepage_services_image'] = array(
     'label' => 'Homepage Services Image',
     'effects' => array(
-      1 => array(
-        'name' => 'manualcrop_crop_and_scale',
+      7 => array(
+        'name' => 'image_scale',
         'data' => array(
-          'width' => 220,
-          'height' => 120,
-          'upscale' => 1,
-          'respectminimum' => 1,
-          'onlyscaleifcrop' => 0,
-          'style_name' => 'homepage_services_image',
-        ),
-        'weight' => 0,
-      ),
-    ),
-  );
-
-  // Exported image style: photo_gallery_thumbnail.
-  $styles['photo_gallery_thumbnail'] = array(
-    'label' => 'Photo Gallery Thumbnail',
-    'effects' => array(
-      2 => array(
-        'name' => 'image_scale_and_crop',
-        'data' => array(
-          'width' => 220,
-          'height' => 220,
+          'width' => 710,
+          'height' => 450,
+          'upscale' => 0,
         ),
         'weight' => 1,
       ),
     ),
   );
 
-  // Exported image style: service_listing_photo.
-  $styles['service_listing_photo'] = array(
-    'label' => 'Service Listing Photo',
+  // Exported image style: service_category_photo.
+  $styles['service_category_photo'] = array(
+    'label' => 'Service category photo',
     'effects' => array(
-      5 => array(
-        'name' => 'manualcrop_crop_and_scale',
+      8 => array(
+        'name' => 'focal_point_scale_and_crop',
         'data' => array(
-          'width' => 360,
-          'height' => 254,
-          'upscale' => 1,
-          'respectminimum' => 1,
-          'onlyscaleifcrop' => 0,
-          'style_name' => 'service_listing_photo',
+          'width' => 740,
+          'height' => 450,
+          'focal_point_advanced' => array(
+            'shift_x' => '',
+            'shift_y' => '',
+          ),
         ),
-        'weight' => 0,
+        'weight' => 1,
       ),
     ),
   );
@@ -124,17 +122,17 @@ function serv_a_yard_image_default_styles() {
   $styles['team_member_photo'] = array(
     'label' => 'Team Member Photo',
     'effects' => array(
-      3 => array(
-        'name' => 'manualcrop_crop_and_scale',
+      11 => array(
+        'name' => 'focal_point_scale_and_crop',
         'data' => array(
           'width' => 300,
           'height' => 300,
-          'upscale' => 1,
-          'respectminimum' => 1,
-          'onlyscaleifcrop' => 0,
-          'style_name' => 'team_member_photo',
+          'focal_point_advanced' => array(
+            'shift_x' => '',
+            'shift_y' => '',
+          ),
         ),
-        'weight' => 0,
+        'weight' => 2,
       ),
     ),
   );
@@ -147,6 +145,14 @@ function serv_a_yard_image_default_styles() {
  */
 function serv_a_yard_node_info() {
   $items = array(
+    'associations' => array(
+      'name' => t('Associations'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
     'carousel_slide' => array(
       'name' => t('Carousel Slide'),
       'base' => 'node_content',
@@ -163,24 +169,24 @@ function serv_a_yard_node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
-    'photo_album' => array(
-      'name' => t('Photo Album'),
+    'page' => array(
+      'name' => t('Basic page'),
+      'base' => 'node_content',
+      'description' => t('Use <em>basic pages</em> for your static content, such as an \'About us\' page.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'service_category_page' => array(
+      'name' => t('Service category page'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
     ),
-    'services' => array(
-      'name' => t('Services'),
-      'base' => 'node_content',
-      'description' => '',
-      'has_title' => '1',
-      'title_label' => t('Title'),
-      'help' => '',
-    ),
-    'services_listing' => array(
-      'name' => t('Services Listing'),
+    'service_description' => array(
+      'name' => t('Service description'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
@@ -193,6 +199,14 @@ function serv_a_yard_node_info() {
       'description' => '',
       'has_title' => '1',
       'title_label' => t('Name'),
+      'help' => '',
+    ),
+    'webform' => array(
+      'name' => t('Webform'),
+      'base' => 'node_content',
+      'description' => t('Create a new form or questionnaire accessible to users. Submission results and statistics are recorded and accessible to privileged users.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
       'help' => '',
     ),
   );

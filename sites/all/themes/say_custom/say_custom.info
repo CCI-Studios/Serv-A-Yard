@@ -2,17 +2,19 @@ name = Serv-A-Yard
 description = Serv-A-Yard Custom
 core = 7.x
 
+scripts[] = js/slick.js
 scripts[] = js/carousel.js
 scripts[] = js/homepage-services.js
 scripts[] = js/mobile-menu.js
+scripts[] = js/service-photos.js
+scripts[] = js/service-request-form.js
 
+stylesheets[all][] = css/slick.css
 stylesheets[all][] = css/screen.css
 
 regions[navigation] = Navigation
 regions[header] = Header
 regions[help] = Help
 regions[content] = Content
-regions[sidebar_first] = Sidebar
-regions[widgets] = Widgets
+regions[after_content] = After Content
 regions[footer] = Footer
-
