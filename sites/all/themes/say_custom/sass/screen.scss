@@ -101,7 +101,7 @@ input[type=submit]
 
 .form-actions
 {
-	margin-left:190px;
+	margin-left:175px;
 }
 
 .clearfix 
@@ -799,6 +799,20 @@ body.node-type-webform
 		{
 			padding-top:20px;
 		}
+	}
+}
+body.node-type-webform #webform-client-form-29
+{
+	input[type=text],
+	input[type=email],
+	select,
+	textarea
+	{
+		width: 280px;
+	}
+	.form-textarea-wrapper
+	{
+		width: auto;
 	}
 }
 body.page-node.node-type-page .field-name-body
