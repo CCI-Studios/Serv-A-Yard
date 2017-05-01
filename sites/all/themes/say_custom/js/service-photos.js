@@ -1,6 +1,6 @@
 (function($) {
 	$(function(){
-		if ($(".block--service-category-photos .field-item").length > 2) {
+		if ($(".block--service-category-photos .field-item").length > 1) {
 			$(".block--service-category-photos .field-items").slick({
 				centerMode: true,
 				slidesToShow: 1,
