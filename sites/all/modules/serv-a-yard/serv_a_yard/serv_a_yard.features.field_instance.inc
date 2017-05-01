@@ -364,7 +364,7 @@ function serv_a_yard_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'homepage_services_image',
         ),
         'type' => 'image',
         'weight' => 15,

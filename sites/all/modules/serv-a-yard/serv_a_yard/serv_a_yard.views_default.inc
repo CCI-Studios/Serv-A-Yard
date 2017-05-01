@@ -251,7 +251,7 @@ function serv_a_yard_views_default_views() {
   $handler->display->display_options['fields']['field_background_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_background_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_background_image']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'homepage_services_image',
     'image_link' => '',
   );
   /* Field: Taxonomy term: Machine name */
