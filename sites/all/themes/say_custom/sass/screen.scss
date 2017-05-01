@@ -366,9 +366,21 @@ input[type=submit]
 						padding: 0 0 0 32px;
 					}
 				}
+				
 				ul a
 				{
 					font-weight: normal;
+				}
+			}
+			&.first > ul > li
+			{
+				width: 33.3333%;
+				text-align: center;
+				
+				@media screen and (max-width: 840px)
+				{
+					width: auto;
+					text-align: left;
 				}
 			}
 		}
