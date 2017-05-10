@@ -2,12 +2,16 @@ var carousel_timer;
 
 (function($) {
 	$(function(){
-		$("#carousel-arrow-left").click(left);
-		$("#carousel-arrow-right").click(right);
-
 		$(".view-homepage-carousel .views-row-1").addClass("active");
 
-		carousel_timer = setInterval(next, 8000);
+		if ($(".view-homepage-carousel .views-row").length > 1) {
+			$("#carousel-arrow-left").click(left);
+			$("#carousel-arrow-right").click(right);
+			carousel_timer = setInterval(next, 8000);
+		} else {
+			$("#carousel-arrow-left").remove();
+			$("#carousel-arrow-right").remove();
+		}
 	});
 
 	function left(event)
