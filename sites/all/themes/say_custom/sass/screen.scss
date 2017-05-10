@@ -114,7 +114,7 @@ input[type=submit]
 	overflow: hidden;
 }
 
-#block-system-main
+.block-system-main
 {
 	line-height:160%;
 
@@ -1532,15 +1532,6 @@ body.services
 	padding-top: 25px;
 	max-width: 580px;
 	
-	&
-	{
-		@media screen and (max-width: 720px)
-		{
-			width: auto;
-			float: none;
-		}
-	}
-	
 	h2
 	{
 		text-transform: uppercase;
@@ -1583,6 +1574,51 @@ body.services
 		{
 			font-weight: bold;
 		}
+	}
+}
+.field-name-field-related-services
+{
+	padding-top: 25px;
+	max-width: 580px;
+	
+	h2
+	{
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 1.75em;
+		margin-bottom: 0.4em;
+	}
+	.field-label
+	{
+		font-weight: 500;
+	}
+
+	.field-item
+	{
+		padding: 0;
+		margin: 0 -4px 0.8em 0;
+		width: 45%;
+		padding-right: 5%;
+		display: inline-block;
+		
+		&
+		{
+			@media screen and (max-width: 480px)
+			{
+				width: auto;
+				float: none;
+				margin: 0 0 0.8em 0;
+				padding-right: 0;
+				display: block;
+			}
+		}
+	}
+	a
+	{
+		display: block;
+		text-decoration: underline;
+		font-size: 17px;
+		font-weight: 500;
 	}
 }
 .node-service-description
@@ -1724,6 +1760,7 @@ body.services
 body.service-orange
 {
 	.block--service-menu .menu a,
+	.field-name-field-related-services a,
 	.field-name-field-service-photos
 	{
 		color: $color-orange;
@@ -1732,6 +1769,7 @@ body.service-orange
 body.service-blue
 {
 	.block--service-menu .menu a,
+	.field-name-field-related-services a,
 	.field-name-field-service-photos
 	{
 		color: $color-blue;
@@ -1740,6 +1778,7 @@ body.service-blue
 body.service-green
 {
 	.block--service-menu .menu a,
+	.field-name-field-related-services a,
 	.field-name-field-service-photos
 	{
 		color: $color-green;
@@ -1748,6 +1787,7 @@ body.service-green
 body.service-red
 {
 	.block--service-menu .menu a,
+	.field-name-field-related-services a,
 	.field-name-field-service-photos
 	{
 		color: $color-red;

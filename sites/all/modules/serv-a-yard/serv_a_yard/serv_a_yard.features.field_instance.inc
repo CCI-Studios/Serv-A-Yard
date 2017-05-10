@@ -659,20 +659,20 @@ function serv_a_yard_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-service_description-field_service_photos'.
-  $field_instances['node-service_description-field_service_photos'] = array(
+  // Exported field_instance: 'node-service_description-field_related_services'.
+  $field_instances['node-service_description-field_related_services'] = array(
     'bundle' => 'service_description',
+    'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'Use the title field to add a caption or description to the image.',
+    'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'hidden',
-        'module' => 'image',
+        'label' => 'above',
+        'module' => 'entityreference',
         'settings' => array(
-          'image_link' => '',
-          'image_style' => 'large',
+          'link' => 1,
         ),
-        'type' => 'image',
+        'type' => 'entityreference_label',
         'weight' => 2,
       ),
       'teaser' => array(
@@ -683,29 +683,21 @@ function serv_a_yard_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_service_photos',
-    'label' => 'Service photos',
+    'field_name' => 'field_related_services',
+    'label' => 'Related Services',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
-      'default_image' => 0,
-      'file_directory' => '',
-      'file_extensions' => 'png gif jpg jpeg',
-      'image_field_caption' => 1,
-      'max_filesize' => '',
-      'max_resolution' => '',
-      'min_resolution' => '',
-      'title_field' => 0,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'multiupload_imagefield_widget',
+      'module' => 'entityreference',
       'settings' => array(
-        'preview_image_style' => 'large',
-        'progress_indicator' => 'throbber',
+        'match_operator' => 'CONTAINS',
+        'path' => '',
+        'size' => 60,
       ),
-      'type' => 'image_miw',
+      'type' => 'entityreference_autocomplete',
       'weight' => 34,
     ),
   );
@@ -1047,13 +1039,12 @@ function serv_a_yard_field_default_field_instances() {
   t('Machine name');
   t('Path');
   t('Photo');
+  t('Related Services');
   t('Service Speciality');
   t('Service Type');
   t('Service category photos');
-  t('Service photos');
   t('Title Description');
   t('Titles');
-  t('Use the title field to add a caption or description to the image.');
 
   return $field_instances;
 }
