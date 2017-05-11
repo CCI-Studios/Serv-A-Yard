@@ -230,11 +230,23 @@ input[type=submit]
 
 		& > li 
 		{
+			position: relative;
 			list-style:none;
 			float: left;
 			padding:0;
 			margin:0;
 			border-left: 2px solid white;
+			
+			&:before
+			{
+				content: "";
+				display: block;
+				position: absolute;
+				bottom: 43px;
+				left: 0;
+				right: 0;
+				height: 4px;
+			}
 
 			& > a,
 			& > .nolink
@@ -269,33 +281,27 @@ input[type=submit]
 			}
 			&:nth-child(1):hover
 			{
-				& > a,
-				& > .nolink,
-				& > ul
+				&:before,
+				& > ul a
 				{
 					background-color: $color-orange;
-					color: white;
 				}
 			}
 			&:nth-child(2):hover
 			{
-				& > a,
-				& > .nolink,
-				& > ul
+				&:before,
+				& > ul a
 				{
 					background-color: $color-blue;
-					color: white;
 				}
 			}
-			&:nth-child(3):hover > a
+			&:nth-child(3):hover:before
 			{
 				background-color: $color-green;
-				color: white;
 			}
-			&:nth-child(4):hover > a
+			&:nth-child(4):hover:before
 			{
 				background-color: $color-red;
-				color: white;
 			}
 
 			&:hover
@@ -312,12 +318,11 @@ input[type=submit]
 				position:absolute;
 				top:100%;
 				left:0;
-				right: 0;
+				width: 245px;
 				z-index:1000;
-				background-color:white;
 				list-style:none;
-				padding: 40px 10%;
-				font-size: 15px;
+				padding: 0;
+				font-size: 14px;
 				box-shadow: 0 2px 8px rgba(0,0,0,0.5);
 				
 				&:before
@@ -334,10 +339,10 @@ input[type=submit]
 				& > li 
 				{
 					list-style:none;
-					margin:0;
+					margin:0 0 2px 0;
 					padding:0;
-					width: 25%;
-					float: left;
+					display: block;
+					position: relative;
 
 					a 
 					{
@@ -347,37 +352,35 @@ input[type=submit]
 						text-decoration:none;
 						padding:10px 10px;
 						font-weight: bold;
+						background: $color-blue;
+						text-align: center;
+						box-shadow: 0 0 5px 2px rgba(0,0,0,0.5) inset;
 
 						&:hover
 						{
 							text-decoration: underline;
 						}
 					}
-					ul, li
+					ul
 					{
 						list-style: none;
+						display: none;
+						position: absolute;
+						left: 100%;
+						padding-left: 2px;
+						width: 245px;
+						top: 0;
+					}
+					&:hover ul
+					{
+						display: block;
 					}
 					li
 					{
-						margin: 0;
-						padding: 0 0 0 32px;
+						margin: 0 0 2px 0;
+						padding: 0;
+						list-style: none;
 					}
-				}
-				
-				ul a
-				{
-					font-weight: normal;
-				}
-			}
-			&.first > ul > li
-			{
-				width: 33.3333%;
-				text-align: center;
-				
-				@media screen and (max-width: 840px)
-				{
-					width: auto;
-					text-align: left;
 				}
 			}
 		}
@@ -425,6 +428,10 @@ input[type=submit]
 			float: none;
 			border-bottom: 2px solid black;
 			
+			&:before
+			{
+				display: none;
+			}
 			&.last
 			{
 				border-bottom: 0;
@@ -469,22 +476,30 @@ input[type=submit]
 				padding: 0 0 8px 0;
 				box-shadow: none;
 				background: none !important;
+				width: auto;
 				
 				&:before
 				{
 					display: none;
 				}
 				& > li
-				{
-					width: auto;
-					float: none;
-					
+				{	
 					a
 					{
 						color: black;
 						font-weight: 500;
 						padding: 10px 15px;
+						background: none !important;
+						box-shadow: none;
+						text-align: left;
 					}
+				}
+				li ul
+				{
+					display: block;
+					position: static;
+					padding-left: 30px;
+					width: auto;
 				}
 				ul a
 				{
