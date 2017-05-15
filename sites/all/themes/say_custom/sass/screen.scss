@@ -685,20 +685,43 @@ input[type=submit]
 {
 	float: left;
 	font-size:15px;
-	width: 215px;
+	max-width: 375px;
 	
 	img
 	{
 		display: block;
 		margin-bottom:20px;
 	}
+	p
+	{
+		margin-bottom: 20px;
+	}
+	.left
+	{
+		width: 200px;
+		float: left;
+		margin-right: 25px;
+	}
+	.right
+	{
+		width: 150px;
+		float: left;
+	}
 	&
 	{
 		@media screen and (max-width: 540px)
 		{
 			float: none;
-			width: auto;
+			max-width: none;
 			text-align: center;
+			
+			.left,
+			.right
+			{
+				width: auto;
+				float: none;
+				margin-right: 0;
+			}
 			
 			img
 			{
