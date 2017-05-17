@@ -11,7 +11,7 @@ $aliases['dev'] = array(
 	'ssh-options'=> '-p 37241'
 );
 
-$aliases['live'] = array(
+$aliases['oldlive'] = array(
 	'uri'=> 'servayard.com',
 	'root' => '/home/say/subdomains/live/public_html',
 	'remote-host'=> 'host.cciserver2.com',
@@ -19,4 +19,14 @@ $aliases['live'] = array(
 	'path-aliases'=> array(
 		'%files'=> 'sites/default/files',
 	)
+);
+
+$aliases['live'] = array(
+        'uri'=> 'servayard.com',
+        'root' => '/home/say/subdomains/live2017/public_html',
+        'remote-host'=> 'host.cciserver2.com',
+        'remote-user'=> 'say',
+        'path-aliases'=> array(
+                '%files'=> 'sites/default/files',
+        )
 );
